@@ -1,0 +1,111 @@
+
+  body {
+    background-image:
+    linear-gradient(
+      rgba(0, 0, 0, 0.25), 
+      rgba(0, 0, 0, 0.25)
+    ),
+    url(../img/img-background.png);
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Encode Sans', sans-serif;
+    text-align: center;
+  }
+  div.server-hzpk {
+    color: rgb(209, 0, 42);
+    font-size: 65px;
+    font-weight: bold;
+  }
+  hr.hzpk {
+    border: 2px solid black;
+    width: 70%;
+    margin-top: 10px;
+    margin-bottom: 15px;
+  }
+
+  table.menu {
+    background-color: rgba(0,0,0,0.3);
+    border-radius: 15px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border-collapse: collapse;
+    margin: auto;
+    }
+  td {
+    padding: 10px;
+  }
+  a.menu {
+    color: aqua;
+  }
+  a.menu-domu {
+    color: lightslategray;
+  }
+  td:nth-child(2n) {
+    padding: 0px;
+  }
+  .current-page {
+    color: rgba(0, 0, 0, 0.25);
+    background-color: rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+  }
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }.down-list {
+      background-color: rgba(0,0,0,0.5);
+      border-radius: 25px;
+      color: white;
+      font-size: 25px;
+      padding: 1px;
+  }  
+  .zoom {
+    padding: 10px;
+    background-color: transparent;
+    transition: transform .2s; /* Animation */
+    /*width: 700px;
+    height: 450px;*/
+    margin: 0 auto;
+    font-weight: bold;
+  }
+  
+  .zoom:hover {
+    transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+  .clanek {
+    color: rgb(233, 233, 233);
+    font-size: 25px;
+    width: 75%;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.35);
+    padding: 15px;
+    border-radius: 10px;
+  }
+  a.odkaz {
+    color: rgb(131, 188, 190);
+  }
+  a:link {
+    text-decoration: none;
+  }
+  
+  a:visited {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  a:active {
+    text-decoration: underline;
+  }
+
+  a.down-list {
+    color: white;
+  }
