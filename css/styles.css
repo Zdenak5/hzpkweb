@@ -1,18 +1,22 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+  
+  * {
+    box-sizing: border-box;
+  }
   body {
     background-image:
     linear-gradient(
-      rgba(0, 0, 0, 0.25), 
-      rgba(0, 0, 0, 0.25)
+      rgba(0, 0, 0, 0.4), 
+      rgba(0, 0, 0, 0.4)
     ),
     url(../img/img-background.png);
     background-attachment: fixed;
     background-size: cover;
-    font-family: 'Encode Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     text-align: center;
   }
   div.server-hzpk {
-    color: rgb(209, 0, 42);
+    color: rgba(255, 0, 51, 0.623);
     font-size: 65px;
     font-weight: bold;
   }
@@ -44,6 +48,7 @@
   td:nth-child(2n) {
     padding: 0px;
   }
+  /*Index.html - row*/
   .current-page {
     color: rgba(0, 0, 0, 0.25);
     background-color: rgba(0, 0, 0, 0.25);
@@ -51,39 +56,38 @@
   }
   .column {
     float: left;
-    width: 33.33%;
+    width: 33%;
     padding: 5px;
   }
   .row::after {
     content: "";
     clear: both;
     display: table;
-  }.down-list {
-      background-color: rgba(0,0,0,0.5);
-      border-radius: 25px;
-      color: white;
-      font-size: 25px;
-      padding: 1px;
   }  
   .zoom {
     padding: 10px;
     background-color: transparent;
     transition: transform .2s; /* Animation */
-    /*width: 700px;
-    height: 450px;*/
     margin: 0 auto;
+    font-size: 2em;
     font-weight: bold;
   }
-  
   .zoom:hover {
-    transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    transform: scale(1.1);
   }
+
+  .local-down-list {
+    list-style-type: disc;
+    margin-left: 25px;
+    color: white;
+    text-align: left;
+  }  
   .clanek {
     color: rgb(233, 233, 233);
     font-size: 25px;
     width: 75%;
-    margin: auto;
-    background-color: rgba(0, 0, 0, 0.35);
+    margin: 100px auto;
+    background-color: rgba(0, 0, 0, 0.15);
     padding: 15px;
     border-radius: 10px;
   }
@@ -106,6 +110,6 @@
     text-decoration: underline;
   }
 
-  a.down-list {
-    color: white;
+  a.local-down-list {
+    color: aqua;
   }
