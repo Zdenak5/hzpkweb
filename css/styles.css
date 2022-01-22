@@ -1,8 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
-  
+    
+/* GLOBAL */
+
   * {
     box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
   }
+  
   body {
     background-image:
     linear-gradient(
@@ -12,10 +16,9 @@
     url(../img/img-background.png);
     background-attachment: fixed;
     background-size: cover;
-    font-family: 'Open Sans', sans-serif;
     text-align: center;
   }
-  div.server-hzpk {
+  .main-heading {
     color: rgb(255, 0, 51);
     font-size: 3.5em;
     font-weight: bold;
@@ -26,7 +29,6 @@
     margin-top: 10px;
     margin-bottom: 15px;
   }
-
   table.menu {
     background-color: rgba(0,0,0,0.3);
     border-radius: 15px;
@@ -49,13 +51,47 @@
   td:nth-child(2n) {
     padding: 0px;
   }
-
   .current-page {
     color: rgba(0, 0, 0, 0.25);
     background-color: rgba(0, 0, 0, 0.25);
     border-radius: 15px;
   }  
-  /*Index.html - row*/
+  .clanek {
+    color: rgb(233, 233, 233);
+    font-size: 25px;
+    width: 75%;
+    margin: 100px auto;
+    background-color: rgba(0, 0, 0, 0.35);
+    padding: 15px;
+    border-radius: 10px;
+  }
+  .info {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin: 10px;
+    color: #7c0000;
+  }
+  
+  /* Odkazy */
+  a.odkaz {
+    color: rgb(131, 188, 190);
+  }
+  a:link {
+    text-decoration: none;
+  }
+  a:visited {
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  a:active {
+    text-decoration: underline;
+  }
+  
+  
+  /*  Index.html - HzPK crew */
   .column {
     float: left;
     width: 33.3%;
@@ -77,41 +113,31 @@
   .zoom:hover {
     transform: scale(1.1);
   }
+  div.moto {
+    font-size: 2em;
+    font-weight: bold;
+    padding: 45px;
+    color: lightgray;
+  }
 
+
+  /*  Download.html  */
   .local-down-list {
     list-style-type: disc;
     margin-left: 25px;
     color: white;
     text-align: left;
   }  
-  .clanek {
-    color: rgb(233, 233, 233);
-    font-size: 25px;
-    width: 75%;
-    margin: 100px auto;
-    background-color: rgba(0, 0, 0, 0.15);
-    padding: 15px;
-    border-radius: 10px;
-  }
-  a.odkaz {
-    color: rgb(131, 188, 190);
-  }
-  a:link {
-    text-decoration: none;
-  }
-  
-  a:visited {
-    text-decoration: none;
-  }
-  
-  a:hover {
-    text-decoration: underline;
-  }
-  
-  a:active {
-    text-decoration: underline;
-  }
-
   a.local-down-list {
     color: aqua;
   }
+  .ke-stazeni {
+    font-size: 40px;
+    color: lightgray;
+    text-align: left;
+    margin: 20px;
+  }
+
+  
+
+  
