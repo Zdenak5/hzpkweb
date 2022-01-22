@@ -17,7 +17,7 @@
   }
   div.server-hzpk {
     color: rgb(255, 0, 51);
-    font-size: 65px;
+    font-size: 3.5em;
     font-weight: bold;
   }
   hr.hzpk {
@@ -35,6 +35,7 @@
     font-weight: bold;
     border-collapse: collapse;
     margin: auto;
+    width: 50%;
     }
   td {
     padding: 10px;
@@ -58,6 +59,7 @@
   .column {
     float: left;
     width: 33.3%;
+    padding: 5px;
   }
   .row::after {
     content: "";
