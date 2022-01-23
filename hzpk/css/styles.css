@@ -41,8 +41,12 @@
     border-collapse: collapse;
     margin: auto;
   }
+  
   td {
     padding: 10px;
+  }
+  a.menu-cw {
+    color: orange;
   }
   a.menu {
     color: aqua;
