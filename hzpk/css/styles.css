@@ -92,3 +92,55 @@
   a:active {
     text-decoration: underline;
   }
+  
+  
+  /*  Index.html - HzPK crew */
+  .column {
+    float: left;
+    width: 33.3%;
+    padding: 5px;
+  }
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }  
+  .zoom {
+    padding: 10px;
+    background-color: transparent;
+    transition: transform .2s; /* Animation */
+    margin: 0 auto;
+    font-size: 2em;
+    font-weight: bold;
+  }
+  .zoom:hover {
+    transform: scale(1.1);
+  }
+  div.moto {
+    font-size: 2em;
+    font-weight: bold;
+    padding: 45px;
+    color: lightgray;
+  }
+
+
+  /*  Download.html  */
+  .local-down-list {
+    list-style-type: disc;
+    margin-left: 25px;
+    color: white;
+    text-align: left;
+  }  
+  a.local-down-list {
+    color: aqua;
+  }
+  .ke-stazeni {
+    font-size: 40px;
+    color: lightgray;
+    text-align: left;
+    margin: 20px;
+  }
+
+  
+
+  
