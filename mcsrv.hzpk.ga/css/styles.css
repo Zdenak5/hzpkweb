@@ -1,12 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
-    
 /* GLOBAL */
-
-  * {
-    box-sizing: border-box;
-    font-family: 'Open Sans', sans-serif;
-  }
-  
+ 
   body {
     background-color: black;
     background-image:
@@ -31,13 +24,4 @@
     width: 70%;
     margin-top: 10px;
     margin-bottom: 15px;
-  }
-  table.menu {
-    background-color: rgba(0,0,0,0.3);
-    border-radius: 15px;
-    color: white;
-    font-size: 20px;
-    font-weight: bold;
-    border-collapse: collapse;
-    margin: auto;
   }

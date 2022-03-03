@@ -7,11 +7,7 @@
     font-family: 'Open Sans', sans-serif;
   }
   
-  body {
-    background-attachment: fixed;
-    background-size: cover;
-    text-align: center;
-  }
+  /* body {} */
 
   ::-webkit-scrollbar {
     width: 10px;
