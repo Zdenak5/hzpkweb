@@ -1,85 +1,93 @@
 /* GLOBAL */
 
-  body {
+body {
     background-color: black;
-    background-image:
-    linear-gradient(
-      rgba(0, 0, 0, 0.4), 
-      rgba(0, 0, 0, 0.4)
-    ),
-    url(../img/img-background.png);
+    background-image: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/img-background.png);
     background-attachment: fixed;
     background-size: cover;
     text-align: center;
-  }
-  .main-heading {
+}
+
+.main-heading {
     color: rgb(255, 0, 51);
     font-size: 3.5em;
     font-weight: bold;
     width: 50%;
     margin: auto;
-  }
-  hr.hzpk {
+}
+
+hr.hzpk {
     border: 2px solid black;
     width: 70%;
     margin-top: 10px;
     margin-bottom: 15px;
-  }
+}
 
-  
-  /*  Index.html - HzPK crew */
-  .column {
+
+/*  Index.html - HzPK crew */
+
+.column {
     float: left;
     width: 33.3%;
     padding: 5px;
-  }
-  .row::after {
+}
+
+.row::after {
     content: "";
     clear: both;
     display: table;
-  }  
-  .zoom {
+}
+
+.zoom {
     padding: 10px;
     background-color: transparent;
-    transition: transform .2s; /* Animation */
+    transition: transform .2s;
+    /* Animation */
     margin: 0 auto;
     font-size: 2em;
     font-weight: bold;
-  }
-  .zoom:hover {
+}
+
+.zoom:hover {
     transform: scale(1.1);
-  }
-  div.moto {
+}
+
+div.moto {
     font-size: 2em;
     font-weight: bold;
     padding: 45px;
     color: lightgray;
-  }
+}
 
 
-  /*  Download.html  */
-  .local-down-list {
+/*  Download.html  */
+
+.local-down-list {
     list-style-type: disc;
     margin-left: 25px;
     color: white;
     text-align: left;
-  }  
-  a.local-down-list {
+}
+
+a.local-down-list {
     color: aqua;
-  }
-  .ke-stazeni {
+}
+
+.ke-stazeni {
     font-size: 40px;
     color: lightgray;
     text-align: left;
     margin: 20px;
-  }
-  .socials {
+}
+
+.socials {
     position: fixed;
     top: 0;
     left: 0;
     margin: 20px;
     color: #333333;
-  }
-  .socials a {
+}
+
+.socials a {
     color: rgb(105, 105, 105);
-  }
+}

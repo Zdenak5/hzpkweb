@@ -1,62 +1,85 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
-    
+
 /* GLOBAL */
 
-  * {
+* {
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
-  }
-  
-  /* body {} */
+}
 
-  ::-webkit-scrollbar {
+
+/* body {} */
+
+ ::-webkit-scrollbar {
     width: 10px;
-  }
-  ::-webkit-scrollbar-track {
+}
+
+ ::-webkit-scrollbar-track {
     background: #f1f1f1;
-  }
-  ::-webkit-scrollbar-thumb {
+}
+
+ ::-webkit-scrollbar-thumb {
     background: #888;
-  }
-  ::-webkit-scrollbar-thumb:hover {
+}
+
+ ::-webkit-scrollbar-thumb:hover {
     background: #555;
-  }
-  hr.hzpk {
+}
+
+hr.hzpk {
     border: 2px solid black;
     width: 70%;
     margin-top: 10px;
     margin-bottom: 15px;
-  }
-  table.menu {
-    background-color: rgba(0,0,0,0.3);
+}
+
+
+/* REWORK menu */
+
+ul.menu {
+    background-color: rgba(0, 0, 0, 0.3);
     border-radius: 15px;
     color: white;
     font-size: 20px;
     font-weight: bold;
-    border-collapse: collapse;
-    margin: auto;
-  }
-  .menu td {
-    padding: 10px;
-  }
-  a.menu {
+    margin: 0 auto;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    max-width: fit-content;
+}
+
+@media screen and (max-width: 450px) {
+    ul.menu {
+        flex-direction: column;
+    }
+}
+
+ul.menu li {
+    padding: 12px;
+}
+
+a.menu {
     color: aqua;
-  }
-  a.menu-cw {
+}
+
+a.menu-cw {
     color: orange;
-  }
-  a.menu-domu {
+}
+
+a.menu-domu {
     color: lightslategray;
-  }
-  td:nth-child(2n) {
-    padding: 0px;
-  }
-  .current-page {
+}
+
+.current-page {
     color: rgba(0, 0, 0, 0.25);
     background-color: rgba(0, 0, 0, 0.25);
     border-radius: 15px;
-  }  
-  .clanek {
+}
+
+.clanek {
     color: rgb(233, 233, 233);
     font-size: 25px;
     width: 75%;
@@ -64,32 +87,40 @@
     background-color: rgba(0, 0, 0, 0.35);
     padding: 15px;
     border-radius: 10px;
-  }
-  .nadpis {
+}
+
+.nadpis {
     font-size: 40px;
     color: lightgray;
-  }
-  .info {
+}
+
+.info {
     position: fixed;
     bottom: 0;
     right: 0;
     margin: 10px;
     color: #7c0000;
-  }
-  
-  /* Odkazy */
-  a.odkaz {
+}
+
+
+/* Odkazy */
+
+a.odkaz {
     color: rgb(131, 188, 190);
-  }
-  a:link {
+}
+
+a:link {
     text-decoration: none;
-  }
-  a:visited {
+}
+
+a:visited {
     text-decoration: none;
-  }
-  a:hover {
+}
+
+a:hover {
     text-decoration: underline;
-  }
-  a:active {
+}
+
+a:active {
     text-decoration: underline;
-  }
+}
