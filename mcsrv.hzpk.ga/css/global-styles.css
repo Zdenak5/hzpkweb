@@ -8,7 +8,7 @@
 }
 
 
-/* body {} */
+/* ScrollBar */
 
  ::-webkit-scrollbar {
     width: 10px;
@@ -26,11 +26,19 @@
     background: #555;
 }
 
+
+/* Čáry */
+
 hr.hzpk {
     border: 2px solid black;
     width: 70%;
     margin-top: 10px;
     margin-bottom: 15px;
+}
+
+hr.menu {
+    border: 2px solid gray;
+    width: 25%;
 }
 
 
@@ -51,7 +59,7 @@ ul.menu {
     max-width: fit-content;
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 650px) {
     ul.menu {
         flex-direction: column;
     }
@@ -59,6 +67,13 @@ ul.menu {
 
 ul.menu li {
     padding: 12px;
+    transition: transform .1s;
+}
+
+ul.menu li:hover {
+    transform: scale(1.1);
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
 }
 
 a.menu {
@@ -75,17 +90,20 @@ a.menu-domu {
 
 .current-page {
     color: rgba(0, 0, 0, 0.25);
-    background-color: rgba(0, 0, 0, 0.25);
+    background-color: rgba(0, 0, 0, 0.45);
     border-radius: 15px;
 }
+
+
+/* Univerzální */
 
 .clanek {
     color: rgb(233, 233, 233);
     font-size: 25px;
-    width: 75%;
-    margin: 100px auto;
-    background-color: rgba(0, 0, 0, 0.35);
-    padding: 15px;
+    width: 85%;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.75);
+    padding: 25px;
     border-radius: 10px;
 }
 
