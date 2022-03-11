@@ -64,15 +64,17 @@ div.moto {
 
 /*  Download.html  */
 
-.local-down-list {
+.down-list {
     list-style-type: disc;
     margin-left: 25px;
     color: white;
     text-align: left;
+    max-width: fit-content;
 }
 
-.local-down-list li a {
+.down-list li a {
     color: aqua;
+    cursor: pointer;
 }
 
 .socials {
