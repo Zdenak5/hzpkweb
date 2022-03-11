@@ -9,10 +9,9 @@ body {
 }
 
 .main-heading {
-    color: rgb(255, 0, 51);
+    color: rgb(255, 0, 0);
     font-size: 3.5em;
     font-weight: bold;
-    width: 50%;
     margin: auto;
 }
 
@@ -52,13 +51,52 @@ div.moto {
 }
 
 #img-index:hover {
-    background: rgba(0, 0, 0, 0.25);
+    background: rgba(0, 0, 0, 0.10);
     border-radius: 5px;
     transform: scale(1.05);
 }
 
 #img-index {
     transition: transform 1s;
+}
+
+.zoom a div {
+    color: white;
+}
+
+.zoom a img {
+    width: 80%;
+}
+
+.column a img {
+    width: 50%;
+}
+
+@media screen and (max-width: 750px) {
+    #img-index {
+        display: none;
+    }
+    div.moto {
+        padding: 10px;
+        font-size: 1.5em;
+    }
+    .youtube {
+        font-size: 1em;
+    }
+    .main-heading {
+        font-size: 2.5em;
+    }
+    .zoom {
+        font-size: 1em;
+    }
+    .zoom a img {
+        width: 100%;
+    }
+    .column {
+        width: 60%;
+        float: none;
+        margin: auto;
+    }
 }
 
 
