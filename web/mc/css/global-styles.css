@@ -44,7 +44,7 @@ hr.menu {
 
 /* REWORK menu */
 
-ul.menu {
+nav.menu {
     background-color: rgba(0, 0, 0, 0.3);
     border-radius: 15px;
     color: white;
@@ -60,17 +60,17 @@ ul.menu {
 }
 
 @media screen and (max-width: 650px) {
-    ul.menu {
+    nav.menu {
         flex-direction: column;
     }
 }
 
-ul.menu li {
+nav.menu li {
     padding: 12px;
     transition: transform .1s;
 }
 
-ul.menu li:hover {
+nav.menu li:hover {
     transform: scale(1.1);
     background: rgba(0, 0, 0, 0.1);
     border-radius: 15px;
