@@ -104,7 +104,7 @@ a.menu-domu {
 }
 
 .info {
-    position: fixed;
+    position: absolute;
     bottom: 0;
     right: 0;
     margin: 10px;
