@@ -7,21 +7,27 @@
     font-family: 'Open Sans', sans-serif;
 }
 
- ::-webkit-scrollbar {
-    width: 10px;
+
+/* ScrollBar */
+
+::-webkit-scrollbar {
+    width: 8px;
 }
 
- ::-webkit-scrollbar-track {
-    background: #f1f1f1;
+::-webkit-scrollbar-track {
+    background: #585858;
 }
 
- ::-webkit-scrollbar-thumb {
-    background: #888;
+::-webkit-scrollbar-thumb {
+    background: rgb(54, 54, 54);
 }
 
- ::-webkit-scrollbar-thumb:hover {
-    background: #555;
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(46, 46, 46);
 }
+
+
+/* Čáry */
 
 hr.hzpk {
     border: 2px solid black;
@@ -48,12 +54,11 @@ nav.menu {
     padding: 0;
     list-style-type: none;
     display: flex;
-    align-content: center;
     justify-content: center;
     max-width: fit-content;
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 650px) {
     nav.menu {
         flex-direction: column;
     }
@@ -66,7 +71,7 @@ nav.menu li {
 
 nav.menu li:hover {
     transform: scale(1.1);
-    background: rgba(0, 0, 0, 0.15);
+    background: rgba(0, 0, 0, 0.1);
     border-radius: 15px;
 }
 
@@ -83,10 +88,12 @@ a.menu-domu {
 }
 
 .current-page {
-    color: rgba(0, 0, 0, 0.45);
+    color: rgba(0, 0, 0, 0.25);
     background-color: rgba(0, 0, 0, 0.45);
     border-radius: 15px;
 }
+
+/* Univerzální */
 
 .clanek {
     color: rgb(233, 233, 233);
@@ -99,12 +106,11 @@ a.menu-domu {
 }
 
 .nadpis {
-    font-size: 40px;
     color: lightgray;
 }
 
 .info {
-    position: absolute;
+    position: fixed;
     bottom: 0;
     right: 0;
     margin: 10px;

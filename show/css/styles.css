@@ -2,7 +2,7 @@
 
 body {
     background-color: black;
-    background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/img-background.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/img-background.png);
     background-attachment: fixed;
     background-size: cover;
     text-align: center;
@@ -76,22 +76,28 @@ div.moto {
     #img-index {
         display: none;
     }
+
     div.moto {
         padding: 10px;
         font-size: 1.5em;
     }
+
     .youtube {
         font-size: 1em;
     }
+
     .main-heading {
         font-size: 2.5em;
     }
+
     .zoom {
         font-size: 1em;
     }
+
     .zoom a img {
         width: 100%;
     }
+
     .column {
         width: 60%;
         float: none;
@@ -125,4 +131,29 @@ div.moto {
 
 .socials a {
     color: rgb(105, 105, 105);
+}
+
+.info {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 10px;
+    color: #7c0000;
+}
+label {
+    color: lightgray;
+    padding: 5px;
+}
+.labelTucne {
+    font-weight: bold;
+    margin-top: 50px;
+}
+form {
+    width: 320px;
+    text-align: left;
+    margin: auto;
+}
+input[type=submit] {
+    margin-top: 10px;
+
 }
