@@ -1,0 +1,128 @@
+/* GLOBAL */
+
+body {
+    background-color: black;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/img-background.png);
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+}
+
+.main-heading {
+    color: rgb(255, 0, 0);
+    font-size: 3.5em;
+    font-weight: bold;
+    margin: auto;
+}
+
+
+/*  Index.html - HzPK crew */
+
+.column {
+    float: left;
+    width: 33.3%;
+    padding: 5px;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.zoom {
+    padding: 10px;
+    background-color: transparent;
+    transition: transform .4s;
+    margin: 0 auto;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.zoom:hover {
+    transform: scale(1.1);
+}
+
+div.moto {
+    font-size: 2em;
+    font-weight: bold;
+    padding: 45px;
+    color: lightgray;
+}
+
+#img-index:hover {
+    background: rgba(0, 0, 0, 0.10);
+    border-radius: 5px;
+    transform: scale(1.05);
+}
+
+#img-index {
+    transition: transform 1s;
+}
+
+.zoom a div {
+    color: white;
+}
+
+.zoom a img {
+    width: 80%;
+}
+
+.column a img {
+    width: 50%;
+}
+
+@media screen and (max-width: 750px) {
+    #img-index {
+        display: none;
+    }
+    div.moto {
+        padding: 10px;
+        font-size: 1.5em;
+    }
+    .youtube {
+        font-size: 1em;
+    }
+    .main-heading {
+        font-size: 2.5em;
+    }
+    .zoom {
+        font-size: 1em;
+    }
+    .zoom a img {
+        width: 100%;
+    }
+    .column {
+        width: 60%;
+        float: none;
+        margin: auto;
+    }
+}
+
+
+/*  Download.html  */
+
+.down-list {
+    list-style-type: disc;
+    margin-left: 25px;
+    color: white;
+    text-align: left;
+    max-width: fit-content;
+}
+
+.down-list li a {
+    color: aqua;
+    cursor: pointer;
+}
+
+.socials {
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 20px;
+    color: #333333;
+}
+
+.socials a {
+    color: rgb(105, 105, 105);
+}

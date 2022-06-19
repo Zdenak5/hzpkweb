@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlexBox 2.2</title>
+    <style>
+        #container {
+            max-width: 960px;
+            margin: 20px auto;
+            background: #ddd;
+            display: flex;
+            min-height: 500px;
+            border: 2px solid #333;
+        }
+        #left {
+            background: yellow;
+            flex: 3; /*poměr */
+            min-width: 250px;
+        }
+        #center {
+            background: green;
+            flex: 6;
+        }
+        #right {
+            background: orange;
+            flex: 2;
+            min-width: 150px;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div id="left">
+            
+        </div>
+        <div id="center">
+            
+        </div>
+        <div id="right">
+            
+        </div>
+    </div>
+
+</body>
+</html>

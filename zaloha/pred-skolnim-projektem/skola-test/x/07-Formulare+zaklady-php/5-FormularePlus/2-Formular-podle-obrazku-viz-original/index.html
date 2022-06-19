@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="cs">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hubálek</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="head">
+            <h1>Zaregistrujte se u nás</h1>
+            <h2>... a řekněte nám, co si o nás myslíte!</h2>
+        </div>
+        <form action="" method="POST" class="formular">
+            <div class="osobni-udaje">
+                <div class="form-nadpis">
+                    <div class="cislo">1</div><span class="nadpis">Osobní údaje</span>
+                </div>
+                <div class="okolo">
+                    <label for="prijmeniJmeno">Příjmení a jméno</label><br>
+                    <input autocomplete="off" type="text" name="prijmeniJmeno" id="prijmeniJmeno" autofocus au><br>
+
+                    <label for="bysliste">Bydliště</label><br>
+                    <textarea name="bydliste" id="bysliste" cols="" rows="2"></textarea>
+                </div>
+
+            </div>
+            <div class="kontakt-info">
+                <div class="form-nadpis">
+                    <span class="cislo">2</span>
+                    <span class="nadpis">Kontaktní informace</span>
+                </div>
+                <div class="okolo">
+                    <label for="email">Email</label><br>
+                    <input autocomplete="off" type="email" name="email" id="email"><br>
+
+                    <label for="telefon">Telefon</label><br>
+                    <input autocomplete="off" type="text" name="telefon" id="telefon">
+                </div>
+            </div>
+            <div class="zakaznicky-ucet">
+                <div class="form-nadpis">
+                    <span class="cislo">3</span>
+                    <span class="nadpis">Zákaznický účet</span>
+                </div>
+                <div class="okolo">
+                    <div>
+                        <input autocomplete="off" type="radio" name="ucet" id="zakladovy" checked><label for="zakladovy">Základový</label>
+                    </div>
+                    <div>
+                        <input autocomplete="off" type="radio" name="ucet" id="bonusovy">
+                        <label for="bonusovy">Bonusový</label>
+                    </div>
+                </div>
+            </div>
+            <div class="odeslat">
+                <input type="submit" value="Odeslat">
+                <span class="souhlas">
+                <input type="checkbox" name="souhlas" id="souhlas"><label for="souhlas">Souhlasím s podmínkami registrace</label>
+            </span>
+            </div>
+
+        </form>
+    </div>
+
+    <a href="formular_II.png" target="_blank">Toto je originál</a>
+</body>
+
+</html>

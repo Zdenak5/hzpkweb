@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(26, 26, 26);
+}
+
+.seda {
+    margin: auto;
+    background-color: gray;
+    max-width: 600px;
+    min-height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modra {
+    background: blue url(https://picsum.photos/1250/500) fixed;
+    height: 150px;
+    width: 100%;
+}
+
+.barvy {
+    margin: auto;
+    display: flex;
+    max-width: 600px;
+    height: 400px;
+    flex-wrap: wrap;
+}
+
+.zelena {
+    background: green;
+    flex: 1;
+}
+
+.cervena {
+    background: red;
+    flex: 1;
+}
+
+.zluta {
+    background: yellow;
+    flex: 1;
+}
+
+.prouzek {
+    margin: auto;
+    background-color: gray;
+    max-width: 600px;
+    min-height: 1000px;
+}
+
+@media screen and (max-width:600px) {
+    .barvy {
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,10 @@
+barva nadpisù Welcome to our website a Lorem Ipsum Dolor Volutpat na rùžovou
+pole SEARCH mezi LEREM IPSUM a Volutpat Dolore
+Read full articles a Comments zarovnat vlevo
+modré pozadí pod menu nahoøe
+hover efekt nad položkami menu - èervené pozadí
+Unembellished    a     Design by Free Css Templates v hlavièce dát pod sebe
+pøidat rámeèek jen okolo TEXTU v patièce
+prohodit sloupce (content float right, sidebar float left)
+odkazy v sekci LOREM IPSUM bez podtržení + hover bold
+vložit obtékaný obrázek loga do druhého odstavce

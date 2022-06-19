@@ -1,0 +1,21 @@
+.doprava {
+    text-align: right;
+}
+
+.checkbox {
+    text-align: center;
+}
+
+input[type=text],
+input[type=number],
+input[type=password] {
+    width: 200px;
+}
+
+#popisek {
+    vertical-align: top;
+}
+
+.motto {
+    vertical-align: top;
+}
