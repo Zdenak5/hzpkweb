@@ -15,6 +15,14 @@
 }
 
 /*Styles Show*/
+body.show {
+    background-color: black;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../show/img/img-background.png);
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+}
+
 /*  -- Index.html - HzPK crew */
 
 .column {
@@ -49,13 +57,13 @@ div.moto {
     color: lightgray;
 }
 
-#img-index:hover {
+.img-index:hover {
     background: rgba(0, 0, 0, 0.10);
     border-radius: 5px;
     transform: scale(1.05);
 }
 
-#img-index {
+.img-index {
     transition: transform 1s;
 }
 
@@ -72,7 +80,7 @@ div.moto {
 }
 
 @media screen and (max-width: 750px) {
-    #img-index {
+    .img-index {
         display: none;
     }
 
@@ -140,7 +148,7 @@ div.moto {
     color: #7c0000;
 }
 
-label {
+form label {
     color: lightgray;
     padding: 5px;
 }
@@ -168,7 +176,7 @@ body.mc {
     background-image:
         linear-gradient(rgba(0, 0, 0, 0.4),
             rgba(0, 0, 0, 0.4)),
-        url(../img/img-background.png);
+        url(../mc/img/img-background.png);
     background-attachment: fixed;
     background-size: cover;
     text-align: center;
@@ -235,7 +243,7 @@ img#dynmap-screen {
         grid-template-columns: repeat(1, minmax(300px, 400px));
         max-width: 410px;
     }
-    
+
 }
 
 .nap-tab {
@@ -246,10 +254,12 @@ img#dynmap-screen {
     text-align: left;
     background: black;
 }
+
 .nap-tab tr td {
     border: 1px white solid;
     padding: 8px;
 }
+
 .nap-tab tr th {
     padding: 15px;
     border: 1px white solid;
@@ -292,10 +302,9 @@ hr.menu {
 
 /* REWORK menu */
 
-nav.menu {
+ul.menu {
     background-color: rgba(0, 0, 0, 0.3);
     border-radius: 15px;
-    color: white;
     font-size: 20px;
     font-weight: bold;
     margin: 0 auto;
@@ -307,17 +316,21 @@ nav.menu {
 }
 
 @media screen and (max-width: 650px) {
-    nav.menu {
+    ul.menu {
         flex-direction: column;
+        max-width: 95%;
+    }
+    ul.menu li {
+        max-width: 100%;
     }
 }
 
-nav.menu li {
+ul.menu li {
     padding: 12px;
     transition: transform .1s;
 }
 
-nav.menu li:hover {
+ul.menu li:hover {
     transform: scale(1.1);
     background: rgba(0, 0, 0, 0.1);
     border-radius: 15px;
@@ -346,12 +359,13 @@ a.menu-domu {
 
 .clanek {
     color: rgb(233, 233, 233);
-    font-size: 25px;
+    font-size: 1.5em;
     width: 85%;
     margin: auto;
-    background-color: rgba(0, 0, 0, 0.75);
-    padding: 25px;
-    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.65);
+    padding: 15px;
+    border-radius: 8px;
+    text-align: justify;
 }
 
 .nadpis {
@@ -363,7 +377,11 @@ a.menu-domu {
     bottom: 0;
     right: 0;
     margin: 10px;
-    color: #7c0000;
+    color: #c2c2c2;
+    font-weight: 500;
+    background: rgba(0, 0, 0, .5);
+    border-radius: 5px;
+    padding: 5px;
 }
 
 

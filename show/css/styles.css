@@ -132,19 +132,23 @@ div.moto {
     margin: 10px;
     color: #7c0000;
 }
+
 label {
     color: lightgray;
     padding: 5px;
 }
+
 .labelTucne {
     font-weight: bold;
     margin-top: 50px;
 }
+
 form {
     width: 320px;
     text-align: left;
     margin: auto;
 }
+
 input[type=submit] {
     margin-top: 10px;
 
