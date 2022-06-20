@@ -1,20 +1,12 @@
 /* GLOBAL */
 
-body {
+body.show {
     background-color: black;
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/img-background.png);
     background-attachment: fixed;
     background-size: cover;
     text-align: center;
 }
-
-.main-heading {
-    color: rgb(255, 0, 0);
-    font-size: 3.5em;
-    font-weight: bold;
-    margin: auto;
-}
-
 
 /*  Index.html - HzPK crew */
 

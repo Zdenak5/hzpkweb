@@ -7,6 +7,254 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+.main-heading {
+    color: rgb(255, 0, 51);
+    font-size: 3.5em;
+    font-weight: bold;
+    margin: auto;
+}
+
+/*Styles Show*/
+/*  -- Index.html - HzPK crew */
+
+.column {
+    float: left;
+    width: 33.3%;
+    padding: 5px;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.zoom {
+    padding: 10px;
+    background-color: transparent;
+    transition: transform .4s;
+    margin: 0 auto;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.zoom:hover {
+    transform: scale(1.1);
+}
+
+div.moto {
+    font-size: 2em;
+    font-weight: bold;
+    padding: 45px;
+    color: lightgray;
+}
+
+#img-index:hover {
+    background: rgba(0, 0, 0, 0.10);
+    border-radius: 5px;
+    transform: scale(1.05);
+}
+
+#img-index {
+    transition: transform 1s;
+}
+
+.zoom a div {
+    color: white;
+}
+
+.zoom a img {
+    width: 80%;
+}
+
+.column a img {
+    width: 50%;
+}
+
+@media screen and (max-width: 750px) {
+    #img-index {
+        display: none;
+    }
+
+    div.moto {
+        padding: 10px;
+        font-size: 1.5em;
+    }
+
+    .youtube {
+        font-size: 1em;
+    }
+
+    .main-heading {
+        font-size: 2.5em;
+    }
+
+    .zoom {
+        font-size: 1em;
+    }
+
+    .zoom a img {
+        width: 100%;
+    }
+
+    .column {
+        width: 60%;
+        float: none;
+        margin: auto;
+    }
+}
+
+
+/*  -- Download.html  */
+
+.down-list {
+    list-style-type: disc;
+    margin-left: 25px;
+    color: white;
+    text-align: left;
+    max-width: fit-content;
+}
+
+.down-list li a {
+    color: aqua;
+    cursor: pointer;
+}
+
+.socials {
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 20px;
+    color: #333333;
+}
+
+.socials a {
+    color: rgb(105, 105, 105);
+}
+
+.info {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 10px;
+    color: #7c0000;
+}
+
+label {
+    color: lightgray;
+    padding: 5px;
+}
+
+.labelTucne {
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+form {
+    width: 320px;
+    text-align: left;
+    margin: auto;
+}
+
+input[type=submit] {
+    margin-top: 10px;
+
+}
+
+/*Styles Mc*/
+/* -- MC */
+body.mc {
+    background-color: black;
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.4),
+            rgba(0, 0, 0, 0.4)),
+        url(../img/img-background.png);
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+    background-position: center;
+}
+
+/* -- Players GRID */
+.players-grid {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(3, minmax(300px, 400px));
+    grid-template-rows: repeat(3, minmax(150px, auto));
+    max-width: 1200px;
+    margin: auto;
+    padding: 10px;
+}
+
+.player {
+    background: rgba(0, 0, 0, .5);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.player img {
+    float: left;
+    width: 130px;
+    border-radius: 5px;
+    margin-right: 25px;
+}
+
+.name-mc {
+    color: lightgray;
+    text-align: left;
+    font-size: 1.5em;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.popis-mc {
+    color: lightgray;
+    text-align: left;
+    font-size: 1.25em;
+
+
+}
+
+img#dynmap-screen {
+    width: 1200px;
+}
+
+@media screen and (max-width:1200px) {
+    .players-grid {
+        grid-template-columns: repeat(2, minmax(300px, 400px));
+        max-width: 850px;
+    }
+
+    img#dynmap-screen {
+        width: 95%;
+    }
+}
+
+@media screen and (max-width:850px) {
+    .players-grid {
+        grid-template-columns: repeat(1, minmax(300px, 400px));
+        max-width: 410px;
+    }
+    
+}
+
+.nap-tab {
+    margin: auto;
+    max-width: 1200px;
+    color: white;
+    border-collapse: collapse;
+    text-align: left;
+    background: black;
+}
+.nap-tab tr td {
+    border: 1px white solid;
+    padding: 8px;
+}
+.nap-tab tr th {
+    padding: 15px;
+    border: 1px white solid;
+}
+
 
 /* ScrollBar */
 
@@ -94,6 +342,7 @@ a.menu-domu {
 }
 
 /* Univerzální */
+
 
 .clanek {
     color: rgb(233, 233, 233);

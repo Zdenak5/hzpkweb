@@ -1,5 +1,5 @@
 /* MC */
-body {
+body.mc {
     background-color: black;
     background-image:
         linear-gradient(rgba(0, 0, 0, 0.4),
@@ -9,14 +9,6 @@ body {
     background-size: cover;
     text-align: center;
     background-position: center;
-}
-
-.main-heading {
-    color: rgb(255, 0, 51);
-    font-size: 3.5em;
-    font-weight: bold;
-    width: 50%;
-    margin: auto;
 }
 
 /*Players GRID*/
@@ -90,11 +82,11 @@ img#dynmap-screen {
     text-align: left;
     background: black;
 }
-td {
+.nap-tab tr td {
     border: 1px white solid;
     padding: 8px;
 }
-th {
+.nap-tab tr th {
     padding: 15px;
     border: 1px white solid;
 }
